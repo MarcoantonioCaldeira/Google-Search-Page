@@ -94,11 +94,6 @@ footer div .links div{
   padding: 10px;
 }
 
-#nome-do-pais{
-  padding: 20px; 
-  border-bottom: 1px solid #3c4043;
-}
-
 #rodape{
   display: flex;
   flex-direction: row;

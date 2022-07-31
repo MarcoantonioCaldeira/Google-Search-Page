@@ -1,0 +1,63 @@
+
+nav div {
+  padding:6px;
+  margin: 4px;
+}
+
+nav-link:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#corpo{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: calc(100vh - 200px);
+}
+
+
+.nav-img:hover{
+  background-color: #515151;
+  border-radius: 50%;
+}
+
+input{
+  all: unset;
+  color: white;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.search-bar:hover{
+  background-color: #303134;
+  border: 1px solid #202124 !important;
+}
+
+button{
+  all: unset;
+  background-color: #303134;
+  padding: 8px 15px 8px 15px;
+  border-radius: 4px;
+  border: 1px solid #202124;
+}
+
+button:hover{
+  border: 1px solid rgb(85, 85, 85);
+}
+
+.google-offer:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer div .links div{
+  padding: 10px;
+}
+
+footer{
+  color: #9aa0a6;
+}

@@ -1,29 +1,10 @@
-body{
-  background-color:#202124;
-  height: 100vh;
-  max-height: 100vh;
-  color: white;
-  font-family: arial, sans-serif;
-  overflow: hidden;
-  margin: 0;
-}
-
-svg{
-  width: 24px; 
-  height: 24px;
-}
-
 nav{
   display: flex; 
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: center;
   align-items: center; 
-  justify-content: flex-end;
-}
-
-.logo{
-  width: 279;
+  justify-content: flex-end;"
 }
 
 nav div {
@@ -59,15 +40,6 @@ input{
   padding-left: 5px;
 }
 
-.search-bar{
-  display: flex; 
-  border: 1px solid  #5f6368;
-  border-radius: 40px;
-  width: 600px;
-  padding: 10px; 
-  margin-top: 30px; 
-}
-
 .search-bar:hover{
   background-color: #303134;
   border: 1px solid #202124 !important;
@@ -94,29 +66,6 @@ footer div .links div{
   padding: 10px;
 }
 
-#nome-do-pais{
-  padding: 20px; 
-  border-bottom: 1px solid #3c4043;
-}
-
-#rodape{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-}
-
 footer{
   color: #9aa0a6;
-  position: absolute; 
-  bottom: 0;
-  background-color:#171717;
-  width: 100%;
-  background-color:#171717;
 }
